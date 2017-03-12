@@ -12,6 +12,11 @@
 		CE618B161E6D8BD8003DAE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE618B141E6D8BD8003DAE20 /* Main.storyboard */; };
 		CE618B181E6D8BD8003DAE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE618B171E6D8BD8003DAE20 /* Assets.xcassets */; };
 		CE618B1B1E6D8BD8003DAE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE618B191E6D8BD8003DAE20 /* LaunchScreen.storyboard */; };
+		CE618B231E6D8BEE003DAE20 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE618B221E6D8BEE003DAE20 /* MyParticle.sks */; };
+		CE618B251E6D8C4F003DAE20 /* SpriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE618B241E6D8C4F003DAE20 /* SpriteView.swift */; };
+		CE618B271E6DA2DD003DAE20 /* MyParticle2.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE618B261E6DA2DD003DAE20 /* MyParticle2.sks */; };
+		CE618B291E6DC21A003DAE20 /* SKEmitterNode+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE618B281E6DC21A003DAE20 /* SKEmitterNode+FileName.swift */; };
+		CE618B2C1E6DC289003DAE20 /* Enum+Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE618B2B1E6DC289003DAE20 /* Enum+Iterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		CE618B171E6D8BD8003DAE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE618B1A1E6D8BD8003DAE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE618B1C1E6D8BD8003DAE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE618B221E6D8BEE003DAE20 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		CE618B241E6D8C4F003DAE20 /* SpriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteView.swift; sourceTree = "<group>"; };
+		CE618B261E6DA2DD003DAE20 /* MyParticle2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle2.sks; sourceTree = "<group>"; };
+		CE618B281E6DC21A003DAE20 /* SKEmitterNode+FileName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+FileName.swift"; sourceTree = "<group>"; };
+		CE618B2B1E6DC289003DAE20 /* Enum+Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum+Iterator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		CE618B0F1E6D8BD8003DAE20 /* SpriteKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				CE618B2A1E6DC24E003DAE20 /* Extension */,
 				CE618B101E6D8BD8003DAE20 /* AppDelegate.swift */,
 				CE618B121E6D8BD8003DAE20 /* ViewController.swift */,
+				CE618B221E6D8BEE003DAE20 /* MyParticle.sks */,
+				CE618B261E6DA2DD003DAE20 /* MyParticle2.sks */,
+				CE618B241E6D8C4F003DAE20 /* SpriteView.swift */,
 				CE618B141E6D8BD8003DAE20 /* Main.storyboard */,
 				CE618B171E6D8BD8003DAE20 /* Assets.xcassets */,
 				CE618B191E6D8BD8003DAE20 /* LaunchScreen.storyboard */,
 				CE618B1C1E6D8BD8003DAE20 /* Info.plist */,
 			);
 			path = SpriteKitSample;
+			sourceTree = "<group>";
+		};
+		CE618B2A1E6DC24E003DAE20 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE618B281E6DC21A003DAE20 /* SKEmitterNode+FileName.swift */,
+				CE618B2B1E6DC289003DAE20 /* Enum+Iterator.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +150,8 @@
 				CE618B1B1E6D8BD8003DAE20 /* LaunchScreen.storyboard in Resources */,
 				CE618B181E6D8BD8003DAE20 /* Assets.xcassets in Resources */,
 				CE618B161E6D8BD8003DAE20 /* Main.storyboard in Resources */,
+				CE618B231E6D8BEE003DAE20 /* MyParticle.sks in Resources */,
+				CE618B271E6DA2DD003DAE20 /* MyParticle2.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE618B131E6D8BD8003DAE20 /* ViewController.swift in Sources */,
+				CE618B291E6DC21A003DAE20 /* SKEmitterNode+FileName.swift in Sources */,
+				CE618B2C1E6DC289003DAE20 /* Enum+Iterator.swift in Sources */,
 				CE618B111E6D8BD8003DAE20 /* AppDelegate.swift in Sources */,
+				CE618B251E6D8C4F003DAE20 /* SpriteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
